@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "800239209938",
+    "firebase_url": "https://app1-b17dc.firebaseio.com",
+    "project_id": "app1-b17dc",
+    "storage_bucket": "app1-b17dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800239209938:android:a2f4d597ba16a8e0aa8c0b",
+        "android_client_info": {
+          "package_name": "com.pranay.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800239209938-t1v331epb2lv4k8utphvab1dnu0anp1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1dvtaKvP5kkuzNz418iEErTSJz33hBtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800239209938-t1v331epb2lv4k8utphvab1dnu0anp1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

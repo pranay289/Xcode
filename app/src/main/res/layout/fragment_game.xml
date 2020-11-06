@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/game_phaeses"
+
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/phase1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/white"
+        android:text="phase 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/phase2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/white"
+        android:text="phase 2"
+        app:layout_constraintEnd_toEndOf="@+id/phase1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phase1"
+        app:layout_constraintTop_toBottomOf="@+id/phase1" />
+
+    <Button
+        android:id="@+id/phase3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/white"
+        android:text="phase 3"
+        app:layout_constraintEnd_toEndOf="@+id/phase2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/phase2"
+        app:layout_constraintTop_toBottomOf="@+id/phase2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
